@@ -1,0 +1,33 @@
+# OAuth credentials and secrets
+credentials/*
+!credentials/.gitkeep
+client_secret*.json
+token.json
+.env
+.env.*
+
+# Local configuration
+config/settings.yaml
+
+# Local database and generated data
+data/*
+!data/.gitkeep
+reports/*
+!reports/.gitkeep
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
